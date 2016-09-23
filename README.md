@@ -31,6 +31,7 @@ See the eslint [user-guide](http://eslint.org/docs/user-guide/configuring) for c
 To test your changes locally, link the package globally on your system.
 
 ```bash
+# run from the eslint-config-fluid directory.
 # depending on your system, you may need to use sudo
 npm link
 ```
@@ -44,8 +45,9 @@ npm link eslint-config-myconfig
 Remove the links to clean up the test settings.
 
 ```bash
+# run from the eslint-config-fluid directory.
 # depending on your system, you may need to use sudo
-npm rm --global eslint-config-fluid
+npm unlink
 
 # in the root directory for the package you tested the configuration with
 npm unlink eslint-config-fluid
