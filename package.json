@@ -1,0 +1,33 @@
+{
+    "name": "eslint-config-fluid",
+    "version": "0.1.0",
+    "description": "fluid-project eslint configuration",
+    "main": "index.js",
+    "engines": {
+        "node": ">=4.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fluid-project/eslint-config-fluid.git"
+    },
+    "keywords": [
+        "eslint",
+        "eslintconfig",
+        "fluid",
+        "fluid-project"
+    ],
+    "author": "Fluid Project",
+    "license": "BSD-3-Clause",
+    "bugs": {
+        "url": "https://issues.fluidproject.org/projects/FLUID/issues"
+    },
+    "homepage": "http://fluidproject.org",
+    "peerDependencies": {
+        "fluid-eslint": ">=2.0.0"
+    },
+    "devDependencies": {
+        "grunt": "0.4.5",
+        "fluid-grunt-eslint": "18.1.2",
+        "grunt-jsonlint": "1.0.4"
+    }
+}
