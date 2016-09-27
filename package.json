@@ -22,9 +22,6 @@
         "url": "https://issues.fluidproject.org/projects/FLUID/issues"
     },
     "homepage": "http://fluidproject.org",
-    "peerDependencies": {
-        "fluid-eslint": ">=2.0.0"
-    },
     "devDependencies": {
         "grunt": "1.0.1",
         "fluid-grunt-eslint": "18.1.2",
