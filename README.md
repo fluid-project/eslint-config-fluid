@@ -17,6 +17,23 @@ and add an `extends` property to your .eslintrc.json file.
 }
 ```
 
+### Extend / Override Configuration ###
+
+When using the eslint configuration provided by this module, you may have a case where you'd like to adjust or extend the configuration. To do this, simply add any additional configuration to your own .eslintrc.json file.
+
+In the following example, we want to add a new global for the Infusion 2.0.0 versioned namespace to our project. The default configuration provided by the module defines a global for the generic `"fluid"` namespace, so we need extend the configuration with an additional global, in this case `"fluid_2_0_0"`.
+
+```json
+{
+    "extends": "eslint-config-fluid",
+    "globals": {
+        "fluid_2_0_0": true
+    }
+}
+```
+
+See the eslint [user-guide](http://eslint.org/docs/user-guide/configuring) for more configuration options.
+
 ## Developing ##
 
 See the eslint [sharable configs](http://eslint.org/docs/developer-guide/shareable-configs) documentation for full details.
