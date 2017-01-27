@@ -17,6 +17,24 @@ and add an `extends` property to your .eslintrc.json file.
 }
 ```
 
+### Extend / Override Configuration ###
+
+When using the eslint configuration provided by this module, you may have a case where you'd like to adjust or extend the configuration. To do this, add any additional configuration to your own .eslintrc.json file, which
+extends the one held in this project.
+
+In the following example, we want to add a new global for the Infusion 2.0.0 versioned namespace to our project. The default configuration provided by the module defines a global for the generic `"fluid"` namespace, so we need to extend the configuration with an additional global, in this case `"fluid_2_0_0"`.
+
+```json
+{
+    "extends": "eslint-config-fluid",
+    "globals": {
+        "fluid_2_0_0": true
+    }
+}
+```
+
+See the eslint [user-guide](http://eslint.org/docs/user-guide/configuring) for more configuration options.
+
 ## Developing ##
 
 See the eslint [sharable configs](http://eslint.org/docs/developer-guide/shareable-configs) documentation for full details.
@@ -39,7 +57,7 @@ npm link
 Add your linked module to the package you want to test in.
 ```bash
 # in the root directory for the package you want to test the configuration with
-npm link eslint-config-myconfig
+npm link eslint-config-fluid
 ```
 
 Remove the links to clean up the test settings.
