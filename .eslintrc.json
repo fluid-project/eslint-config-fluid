@@ -48,6 +48,7 @@
     "no-loop-func": "error",
     "no-multi-str": "error",
     "no-new": "error",
+    "no-new-wrappers": "error",
     "no-proto": "error",
     "no-redeclare": "error",
     "no-script-url": "error",
