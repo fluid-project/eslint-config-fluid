@@ -105,7 +105,7 @@
             "safe"
         ],
         "valid-typeof": "error",
-        "valid-jsdoc": {
+        "valid-jsdoc": ["error", {
             "prefer": {
                 "arg": "param",
                 "argument": "param",
@@ -123,7 +123,7 @@
             "requireReturn": false,
             "requireReturnDescription": true,
             "requireReturnType": true
-        },
+        }],
         "wrap-iife": [
             "error",
             "inside"
