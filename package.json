@@ -23,7 +23,7 @@
     },
     "homepage": "http://fluidproject.org",
     "dependencies": {
-        "fluid-grunt-eslint": "18.1.2",
+        "fluid-grunt-eslint": "18.1.2"
     },
     "devDependencies": {
         "grunt": "1.0.1",
