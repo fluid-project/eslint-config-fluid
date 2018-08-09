@@ -22,9 +22,11 @@
         "url": "https://issues.fluidproject.org/projects/FLUID/issues"
     },
     "homepage": "http://fluidproject.org",
+    "dependencies": {
+        "fluid-grunt-eslint": "18.1.2",
+    },
     "devDependencies": {
         "grunt": "1.0.1",
-        "fluid-grunt-eslint": "18.1.2",
         "grunt-jsonlint": "1.1.0"
     }
 }
