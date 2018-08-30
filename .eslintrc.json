@@ -47,6 +47,7 @@
             "error",
             "except-parens"
         ],
+        "no-console": "error",
         "no-debugger": "error",
         "no-empty": [
             "error",
