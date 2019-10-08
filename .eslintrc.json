@@ -36,6 +36,7 @@
             4
         ],
         "keyword-spacing": "error",
+        "linebreak-style": ["error", "unix"],
         "new-cap": [
             "error",
             {
