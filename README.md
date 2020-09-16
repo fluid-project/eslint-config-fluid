@@ -45,7 +45,7 @@ To only use the Fluid setings for Eslint, add the following `extends` property t
 
 ```json
 {
-    "extends": "fluid/only-fluid-config"
+    "extends": "fluid/fluid-config"
 }
 ```
 
