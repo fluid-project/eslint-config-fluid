@@ -16,6 +16,9 @@
         "fluid",
         "fluid-project"
     ],
+    "scripts": {
+        "lint": "grunt lint"
+    },
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
     "bugs": {
@@ -23,11 +26,11 @@
     },
     "homepage": "http://fluidproject.org",
     "dependencies": {
-        "fluid-grunt-eslint": "18.1.2"
+        "eslint-plugin-jsdoc": "30.5.1"
     },
     "devDependencies": {
-        "grunt": "1.0.4",
-        "fluid-grunt-eslint": "18.1.2",
-        "grunt-jsonlint": "2.0.0"
+        "grunt": "1.3.0",
+        "grunt-eslint": "23.0.0",
+        "grunt-jsonlint": "2.1.3"
     }
 }

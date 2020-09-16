@@ -1,11 +1,13 @@
 /*
-Copyright 2016 OCAD University
+Copyright The Eslint-Config-Fluid copyright holders
+See the AUTHORS.md file at the top-level directory of this distribution and at
+https://github.com/fluid-project/eslint-config-fluid/raw/master/AUTHORS.md.
 
 Licensed under the New BSD license. You may not use this file except in
 compliance with this License.
 
 You may obtain a copy of the License at
-https://github.com/fluid-project/first-discovery-server/raw/master/LICENSE.txt
+https://github.com/fluid-project/eslint-config-fluid/raw/master/LICENSE.txt
 */
 
 /* eslint-env node */
@@ -18,7 +20,7 @@ module.exports = function (grunt) {
         // Project package file destination.
         pkg: grunt.file.readJSON("package.json"),
         eslint: {
-            all: ["**/*.js"]
+            all: ["*.js"]
         },
         jsonlint: {
             all: ["*.json", ".*.json"]
@@ -26,7 +28,7 @@ module.exports = function (grunt) {
     });
 
     // Load the plugin(s):
-    grunt.loadNpmTasks("fluid-grunt-eslint");
+    grunt.loadNpmTasks("grunt-eslint");
     grunt.loadNpmTasks("grunt-jsonlint");
 
     // Custom tasks:

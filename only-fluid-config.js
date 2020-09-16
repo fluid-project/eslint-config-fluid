@@ -16,6 +16,6 @@ https://github.com/fluid-project/eslint-config-fluid/raw/master/LICENSE.txt
 "use strict";
 
 var path = require("path");
-var configPath = path.join(__dirname, ".eslintrc.json");
+var configPath = path.join(__dirname, ".eslintrc-fluid.json");
 
 module.exports = require(configPath);
