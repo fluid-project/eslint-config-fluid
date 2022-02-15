@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-fluid",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "fluid-project eslint configuration",
     "main": "index.js",
     "engines": {
