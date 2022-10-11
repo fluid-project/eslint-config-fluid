@@ -20,7 +20,7 @@
             "error",
             "all"
         ],
-        "dot-notation": [2, { "allowKeywords": true, "allowPattern": "catch" }]
+        "dot-notation": [2, { "allowKeywords": true, "allowPattern": "catch" }],
         "eol-last": "error",
         "eqeqeq": [
             "error",
