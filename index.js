@@ -15,6 +15,8 @@ https://github.com/fluid-project/eslint-config-fluid/raw/main/LICENSE.txt
 /* eslint-env node */
 "use strict";
 
+// foo
+
 var path = require("path");
 var configPath = path.join(__dirname, ".eslintrc.json");
 

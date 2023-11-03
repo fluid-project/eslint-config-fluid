@@ -26,11 +26,12 @@
     },
     "homepage": "http://fluidproject.org",
     "dependencies": {
-        "eslint-plugin-jsdoc": "39.3.13"
+        "eslint-plugin-jsdoc": "39.3.13",
+        "@stylistic/eslint-plugin-js": "1.0.0"
     },
     "devDependencies": {
-        "grunt": "1.5.3",
-        "grunt-eslint": "24.0.0",
+        "grunt": "1.6.1",
+        "grunt-eslint": "24.3.0",
         "grunt-jsonlint": "2.1.3"
     }
 }

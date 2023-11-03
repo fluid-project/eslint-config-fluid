@@ -1,4 +1,7 @@
 {
+    "plugins": [
+        "@stylistic/js"
+    ],
     "env": {
         "browser": true,
         "jquery": true
@@ -8,11 +11,11 @@
     },
     "rules": {
         "block-scoped-var": "error",
-        "comma-dangle": [
+        "@stylistic/js/comma-dangle": [
             "error",
             "never"
         ],
-        "comma-style": [
+        "@stylistic/js/comma-style": [
             "error",
             "last"
         ],
@@ -20,17 +23,17 @@
             "error",
             "all"
         ],
-        "eol-last": "error",
+        "@stylistic/js/eol-last": "error",
         "eqeqeq": [
             "error",
             "allow-null"
         ],
-        "indent": [
+        "@stylistic/js/indent": [
             "error",
             4
         ],
-        "keyword-spacing": "error",
-        "linebreak-style": ["error", "unix"],
+        "@stylistic/js/keyword-spacing": "error",
+        "@stylistic/js/linebreak-style": ["error", "unix"],
         "new-cap": [
             "error",
             {
@@ -62,31 +65,31 @@
         "no-redeclare": "error",
         "no-script-url": "error",
         "no-sequences": "error",
-        "no-trailing-spaces": "error",
+        "@stylistic/js/no-trailing-spaces": "error",
         "no-undef": "error",
         "no-unused-vars": "error",
         "no-with": "error",
-        "quotes": [
+        "@stylistic/js/quotes": [
             "error",
             "double"
         ],
-        "semi": [
+        "@stylistic/js/semi": [
             "error",
             "always"
         ],
-        "space-before-blocks": [
+        "@stylistic/js/space-before-blocks": [
             "error",
             "always"
         ],
-        "space-before-function-paren": [
+        "@stylistic/js/space-before-function-paren": [
             "error",
             {
                 "anonymous": "always",
                 "named": "never"
             }
         ],
-        "space-infix-ops": "error",
-        "space-unary-ops": [
+        "@stylistic/js/space-infix-ops": "error",
+        "@stylistic/js/space-unary-ops": [
             "error",
             {
                 "words": true,
