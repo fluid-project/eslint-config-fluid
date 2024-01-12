@@ -31,6 +31,6 @@
         "eslint-plugin-jsdoc": "39.3.13"
     },
     "devDependencies": {
-        "jsonlint": "^1.6.3"
+        "jsonlint": "1.6.3"
     }
 }
