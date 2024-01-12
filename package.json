@@ -17,7 +17,9 @@
         "fluid-project"
     ],
     "scripts": {
-        "lint": "grunt lint"
+        "lint": "npm run lint:eslint && npm run lint:json",
+	"lint:eslint": "eslint *.js",
+	"lint:json": "npx fluid-lint-all -- --checks jsonlint"
     },
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
@@ -27,10 +29,5 @@
     "homepage": "http://fluidproject.org",
     "dependencies": {
         "eslint-plugin-jsdoc": "39.3.13"
-    },
-    "devDependencies": {
-        "grunt": "1.5.3",
-        "grunt-eslint": "24.0.0",
-        "grunt-jsonlint": "2.1.3"
     }
 }
