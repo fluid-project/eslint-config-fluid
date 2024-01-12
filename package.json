@@ -18,8 +18,8 @@
     ],
     "scripts": {
         "lint": "npm run lint:eslint && npm run lint:json",
-	"lint:eslint": "eslint *.js",
-	"lint:json": "npx fluid-lint-all -- --checks jsonlint"
+        "lint:eslint": "eslint *.js",
+        "lint:json": "jsonlint -qc *.json .*.json"
     },
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
@@ -29,5 +29,8 @@
     "homepage": "http://fluidproject.org",
     "dependencies": {
         "eslint-plugin-jsdoc": "39.3.13"
+    },
+    "devDependencies": {
+        "jsonlint": "^1.6.3"
     }
 }
