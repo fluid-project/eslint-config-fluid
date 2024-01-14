@@ -1,6 +1,6 @@
 {
     "name": "eslint-config-fluid",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "fluid-project eslint configuration",
     "main": "index.js",
     "engines": {
@@ -28,7 +28,9 @@
     },
     "homepage": "http://fluidproject.org",
     "dependencies": {
-        "eslint-plugin-jsdoc": "39.3.13"
+	"eslint": "8.53.0",
+        "eslint-plugin-jsdoc": "39.3.13",
+        "@stylistic/eslint-plugin-js": "1.0.0"
     },
     "devDependencies": {
         "jsonlint": "1.6.3"
