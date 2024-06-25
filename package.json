@@ -26,9 +26,9 @@
     },
     "homepage": "http://fluidproject.org",
     "dependencies": {
-	"eslint": "8.53.0",
-        "eslint-plugin-jsdoc": "39.3.13",
-        "@stylistic/eslint-plugin-js": "1.0.0"
+        "@stylistic/eslint-plugin-js": "2.3.0",
+        "eslint": "8.57.0",
+        "eslint-plugin-jsdoc": "48.4.0"
     },
     "devDependencies": {
         "grunt": "1.6.1",
