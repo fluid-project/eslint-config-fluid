@@ -17,7 +17,7 @@
         "fluid-project"
     ],
     "scripts": {
-        "lint": "grunt lint"
+        "lint": "eslint ."
     },
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
@@ -29,10 +29,5 @@
         "@stylistic/eslint-plugin-js": "2.3.0",
         "eslint": "8.57.0",
         "eslint-plugin-jsdoc": "48.4.0"
-    },
-    "devDependencies": {
-        "grunt": "1.6.1",
-        "grunt-eslint": "24.3.0",
-        "grunt-jsonlint": "2.1.3"
     }
 }
