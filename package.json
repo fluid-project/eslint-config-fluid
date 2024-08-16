@@ -1,33 +1,38 @@
 {
-    "name": "eslint-config-fluid",
-    "version": "2.1.3",
-    "description": "fluid-project eslint configuration",
-    "main": "index.js",
-    "engines": {
-        "node": ">=18.0.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/fluid-project/eslint-config-fluid.git"
-    },
-    "keywords": [
-        "eslint",
-        "eslintconfig",
-        "fluid",
-        "fluid-project"
-    ],
-    "scripts": {
-        "lint": "eslint ."
-    },
-    "author": "Fluid Project",
-    "license": "BSD-3-Clause",
-    "bugs": {
-        "url": "https://issues.fluidproject.org/projects/FLUID/issues"
-    },
-    "homepage": "http://fluidproject.org",
-    "dependencies": {
-        "@stylistic/eslint-plugin-js": "2.3.0",
-        "eslint": "8.57.0",
-        "eslint-plugin-jsdoc": "48.4.0"
-    }
+  "name": "eslint-config-fluid",
+  "version": "2.1.3",
+  "description": "fluid-project eslint configuration",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluid-project/eslint-config-fluid.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "fluid",
+    "fluid-project"
+  ],
+  "scripts": {
+    "lint": "npm run lint:eslint && npm run lint:json",
+    "lint:eslint": "eslint *.js",
+    "lint:json": "jsonlint -qc *.json .*.json"
+  },
+  "author": "Fluid Project",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/fluid-project/eslint-config-fluid/issues"
+  },
+  "homepage": "http://fluidproject.org",
+  "dependencies": {
+    "@stylistic/eslint-plugin-js": "2.6.4",
+    "eslint": "8.57.0",
+    "eslint-plugin-jsdoc": "50.2.2"
+  },
+  "devDependencies": {
+    "jsonlint": "1.6.3"
+  }
 }
