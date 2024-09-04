@@ -4,7 +4,7 @@
     "description": "fluid-project eslint configuration",
     "main": "index.js",
     "engines": {
-        "node": ">=14.0.0"
+        "node": ">=18.0.0"
     },
     "repository": {
         "type": "git",
@@ -26,8 +26,8 @@
     },
     "homepage": "http://fluidproject.org",
     "dependencies": {
-	"eslint": "8.53.0",
-        "eslint-plugin-jsdoc": "39.3.13",
-        "@stylistic/eslint-plugin-js": "1.0.0"
+        "@stylistic/eslint-plugin-js": "2.6.4",
+        "eslint": "8.57.0",
+        "eslint-plugin-jsdoc": "50.2.2"
     }
 }
