@@ -17,9 +17,7 @@
         "fluid-project"
     ],
     "scripts": {
-        "lint": "npm run lint:eslint && npm run lint:json",
-        "lint:eslint": "eslint *.js",
-        "lint:json": "npx fluid-lint-all --checks jsonlint"
+        "lint": "npx fluid-lint-all --checks eslint.js,jsonlint"
     },
     "author": "Fluid Project",
     "license": "BSD-3-Clause",
